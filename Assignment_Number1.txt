@@ -1,0 +1,649 @@
+/*
+class Hello{
+	public static void main(String args[])
+	{
+		System.out.println("Hello");
+		System.out.println("Jayesh Gaikwad");
+	}
+}
+*/
+
+/*
+class AddTwoNumbers{
+	public static void main(String args[])
+	{
+		int num1=74,num2=36,sum;
+		sum=num1+num2;
+		System.out.println("Sum of 74+36 is: "+sum);
+	}
+}
+*/
+
+
+/*
+class DivideTwoNumbers{
+	public static void main(String args[])
+	{
+		int num1=50,num2=3,division;
+		division=num1/num2;
+		System.out.println("Division of 50 & 3 is: "+division);
+		
+	}
+}
+*/
+
+
+/*
+class Assign4{
+	public static void main(String args[])
+	{
+		System.out.println(-5+8*6);
+		System.out.println((55+9)%9);
+		System.out.println(20+ -3*2-8%3);
+		System.out.println(5 + 15 / 3 * 2 - 8 % 3);
+	}
+}
+*/
+
+
+/*
+
+import java.util.Scanner;
+class ProductTwoNumbers
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Input first number:");
+		int num1=sc.nextInt();
+		System.out.print("Input second number:");
+		int num2=sc.nextInt();
+		int mult=num1*num2;
+		System.out.println("Multiplication of two Numbers is :"+mult);
+	}
+}
+
+*/
+
+/*
+
+import java.util.Scanner;
+class Problem6{
+	public static void main(String args[]){
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Input first Number");
+		int num1 = sc.nextInt();
+		
+		System.out.println("Input Second number");
+		int num2 = sc.nextInt();
+		int num3;
+		num3=num1+num2;
+		System.out.println(num1+ "+"+num2+ "="+(num1+num2));
+		
+		num3=num1-num2;
+		System.out.println(num1+ "-"+num2+ "="+num3);
+		
+		num3=num1/num2;
+		System.out.println(num1+"/" +num2+ "="+num3);
+		
+		num3=num1%num2;
+		System.out.println(num1+"%" +num2+ "="+num3);
+	}
+}
+
+*/
+
+/*
+import java.util.Scanner;
+class Problem7{
+		public static void main(String args[])
+		{
+			Scanner sc=new Scanner(System.in);
+			System.out.println("Enter a number:");
+			int num1 = sc.nextInt();
+			
+			for(int i=0;i<10;i++){
+				System.out.println(num1 + "x" + (i+1) + "=" +(num1 *(i+1)));
+		}
+	}
+}
+*/
+
+/*
+class Problem8{
+	public static void main(String args[])
+	{
+		for(int i = 1; i<=4; i++)
+		{
+			for (int j = 1; j<=4; j++ )  // for J
+			{
+				if(i == 1 && j == 4 || i ==  2 && j ==  4 || i ==  3 && j ==  1 || i ==  3 && j ==  4||i ==  4 && j ==  2 || i ==  4 && j ==  3 )
+				{
+				System.out.print("J");
+				}
+				else{
+				System.out.print(" ");
+				}	
+			}
+			System.out.println();
+
+			for (int a = 1; a<=11; a++ ) //for A
+			{
+				if(i == 1 && a == 9 || i ==  2 && a ==  8 || i ==  2 && a ==  11 || i ==  3 && a ==  8 || i ==  3 && a ==  9||i ==  3 && a == 10  || i ==  3 && a ==  11 || i ==  4 && a ==  8 || i ==  4 && a == 11 )
+				{
+				System.out.print("A");
+				}
+				
+				else{
+				System.out.print(" ");
+				}
+			}
+			System.out.println();
+
+
+			for (int v = 1; v<=22; v++ ) //for A
+			{
+				if(i == 1 && v == 15 || i == 1 && v == 21 ||i ==  2 && v ==  16 || i ==  2 && v ==  20 || i ==  3 && v ==  17 || i ==  3 && v ==  19||i ==  4 && v == 18  )
+				{
+				System.out.print("V");
+				}
+
+				else{
+				System.out.print(" ");
+				}
+			}System.out.println();
+
+			for (int aa = 1; aa<=38; aa++ ) //for A
+			{
+				if(i == 1 && aa == 29 || i ==  2 && aa ==  28 || i ==  2 && aa ==  31 || i ==  3 && aa ==  28 || i ==  3 && aa ==  29||i ==  3 && aa == 30  || i ==  3 && aa ==  31 || i ==  4 && aa ==  28 || i ==  4 && aa == 31 )
+				{
+				System.out.print("A");
+				}
+				
+				else{
+				System.out.print(" ");
+				}
+			}System.out.println();
+
+		}
+				
+	}
+}
+
+*/
+
+class Problem9{
+	public static void main(String args[])
+	{
+		System.out.println(((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)));
+	}
+	
+}
+
+*/
+
+/*
+class Problem10{
+	public static void main(String args[])
+	{
+		System.out.println((4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))));
+	}
+	
+}
+*/
+
+/*
+
+import java.util.Scanner;
+class Problem11{
+	public static void main(String args[]){
+		Scanner sc= new Scanner(System.in);
+		System.out.println("The radius of circle:");
+		double radius = sc.nextDouble();
+		System.out.println("Perimeter is =" +(2*radius*Math.PI));
+		System.out.println("Area is=" +(Math.PI *radius*radius));
+	}
+}
+
+*/
+
+/*
+
+import java.util.Scanner;
+class Average {
+ 
+ public static void main(String[] args) {
+  Scanner in = new Scanner(System.in);
+   
+  System.out.print("First number: ");
+  int num1 = in.nextInt();
+   
+  System.out.print("Second number: ");
+  int num2 = in.nextInt();
+   
+  System.out.print("Third number: ");
+  int num3 = in.nextInt();
+   
+  System.out.println("Average of three numbers is: " + 
+   (num1 + num2 + num3) / 3);
+ }
+}
+
+*/
+
+/*
+
+class AreaAndPerimeter{
+public static void main(String args[]){
+
+	double width=5.6;
+	double height=8.5;
+
+	double perimeter=2*(height+width);
+	
+	double area= width*height;
+	
+	System.out.printf("Area is %.1f *%.1f=%.2f\n",width,height,area);
+
+	System.out.printf("Perimeter is 2*(%.1f+%.1f)=%.2f\n", height,width,perimeter);
+
+}
+}
+
+*/
+
+/*
+
+class Problem14 {
+   public static void main(String[] args)
+    {
+        System.out.println("* * * * * * ==================================");
+        System.out.println(" * * * * *  ==================================");
+        System.out.println("* * * * * * ==================================");
+        System.out.println(" * * * * *  ==================================");
+        System.out.println("* * * * * * ==================================");
+        System.out.println(" * * * * *  ==================================");
+        System.out.println("* * * * * * ==================================");
+        System.out.println(" * * * * *  ==================================");
+        System.out.println("* * * * * * ==================================");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
+    }
+}
+
+*/
+
+/*
+
+import java.util.Scanner;
+class Swapp15{
+	public static void main(String args[])
+	{
+		int a,b,temp;
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter first number:");
+		a=sc.nextInt();
+		System.out.println("Enter second number:");
+		b=sc.nextInt();
+		
+		System.out.println("Before swapping values are:" +a+ "and" +b);
+		
+		temp=a;
+		a=b;
+		b=temp;
+		
+		System.out.println("After swapping values are:" +a+ "and" +b);
+
+}
+}
+
+*/
+
+/*
+
+class Problem16 {
+    public static void main(String[] args)
+    {
+        System.out.println(" +\"\"\"\"\"+ ");
+        System.out.println("[| o o |]");
+        System.out.println(" |  ^  | ");
+        System.out.println(" | '-' | ");
+        System.out.println(" +-----+ ");
+    }
+}
+
+*/
+
+/*
+
+import java.util.Scanner;
+class SumOfBinary{
+   public static void main(String[] args)
+   {	 
+	int bin1,bin2;
+	int i = 0, carry = 0;
+
+	int arr[] = new int[10];
+
+	Scanner sc = new Scanner(System.in);
+
+	System.out.print("Enter first binary number: ");
+	bin1 = sc.nextInt();
+	
+	System.out.print("Enter second binary number: ");
+	bin2 = sc.nextInt();
+	
+	sc.close();
+	while (bin1 != 0 || bin2 != 0) 
+	{
+		arr[i] = (int)((bin1 % 10 + bin2 % 10 + carry) % 2);
+		i++;
+		carry = (int)((bin1 % 10 + bin2 % 10 + carry) / 2);
+		bin1 = bin1 / 10;
+		bin2 = bin2 / 10;
+	}
+	if (carry != 0) {
+		arr[i] = carry;
+		i++;
+	}
+	System.out.print("Sum of two binary numbers: ");
+	i--;
+	while (i >= 0) {
+		System.out.print(arr[i]);
+		i--;
+	}
+	System.out.print("\n");  
+   }
+}
+
+*/
+
+/*
+
+import java.util.Scanner;
+class ProductOfBinary{
+ public static void main(String[] args)
+ {
+  long bin1, bin2, multiply = 0;
+  int digit, factor = 1;
+  Scanner in = new Scanner(System.in);
+  System.out.print("Enter first binary number: ");
+  bin1 = in.nextLong();
+  System.out.print("Enter second binary number: ");
+  bin2 = in.nextLong();
+  
+  while (bin2 != 0)
+  {
+	digit = (int)(bin2 % 10);
+	if (digit == 1) 
+	{
+		bin1 = bin1 * factor;
+		multiply = binaryproduct((int) bin1, (int) multiply);
+	} 
+   else
+	{
+		bin1 = bin1 * factor;
+	}
+	bin2 = bin2 / 10;
+	factor = 10;
+  }
+  System.out.print("Product of two binary numbers are : " + multiply+"\n");
+ }
+ 
+ 
+ static int binaryproduct(int binary1, int binary2) 
+ {
+  int i = 0, remainder = 0;
+  int[] sum = new int[20];
+  int binary_prod_result = 0;
+
+  while (binary1 != 0 || binary2 != 0) 
+  {
+	sum[i++] = (binary1 % 10 + binary2 % 10 + remainder) % 2;
+	remainder = (binary1 % 10 + binary2 % 10 + remainder) / 2;
+	binary1 = binary1 / 10;
+	binary2 = binary2 / 10;
+  }
+  if (remainder != 0)
+  {
+   sum[i++] = remainder;
+  }
+  --i;
+  while (i >= 0) 
+  {
+	binary_prod_result = binary_prod_result * 10 + sum[i--];
+  }
+  return binary_prod_result;
+ }
+ }
+ 
+ */
+ 
+ /*
+ 
+import java.util.Scanner;
+class DecimalToBinary{
+	public static void main(String[] args){
+		int dnum,quot,i=1,j;
+		int bnum[]=new int[100];
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter a decimal");
+		dnum=sc.nextInt();
+		
+		quot=dnum;
+		
+		while(quot!=0)
+		{
+			bnum[i]= quot%2;
+			i++;
+			quot= quot/2;
+		}
+		
+		System.out.print("Binary number is:");
+		for(j=i-1;j>0;j--)
+		{
+			System.out.print(bnum[j]);
+		}
+		
+		System.out.println("\n");
+	}			
+}
+
+*/
+
+/*
+
+import java.util.Scanner;
+class DecimalToHexadecimal {
+      public static void main(String args[]){
+        int dnum, rem;
+        String hdnum="";
+		
+        char hex[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
+        
+        Scanner sc = new Scanner(System.in);
+		
+        System.out.print("Enter a decimal number: ");
+        dnum = sc.nextInt();
+		
+        while(dnum>0)
+        {
+            rem = dnum%16;
+            hdnum = hex[rem] + hdnum;
+            dnum = dnum/16;
+        }
+        System.out.print("Hexadecimal number is : "+hdnum+"\n");         
+    }
+}
+
+*/
+
+/*
+
+import java.util.Scanner;
+class DecimalToOctal{
+	public static void main(String args[]){
+		int dnum,rem,quot,i=1,j;
+		int onum[]=new int[100];
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter a decimal number:");
+		dnum=sc.nextInt();
+		
+		quot=dnum;
+		
+		while(quot!=0)
+		{
+			onum[i]=quot%8;
+			i++;
+			quot=quot/8;
+		}
+		System.out.print("Octal number is:");
+		for(j=i-1;j>0;j--)
+		{
+			System.out.print(onum[j]);
+		}
+		System.out.print("\n");
+		}
+	}
+
+*/
+
+/*
+
+import java.util.Scanner;
+class BinaryToDecimal{
+ public static void main(String[] args) 
+ {
+  Scanner sc = new Scanner(System.in);
+  long bnum, dnum= 0, j = 1, remainder;
+  System.out.print("Enter a binary number: ");
+  bnum = sc.nextLong();
+
+  while (bnum!= 0) 
+  {
+   remainder = bnum % 10;
+   dnum = dnum + remainder * j;
+   j = j * 2;
+   bnum = bnum / 10;
+  }
+  System.out.println("Decimal Number is : " + dnum);
+ }
+}
+
+*/
+
+/*
+
+import java.util.Scanner;
+class BinaryToHexadecimal{
+ public static void main(String[] args) 
+ {
+	int hex[] = new int[1000];
+	int i = 1, j = 0, rem, dec = 0, bin;
+	Scanner sc= new Scanner(System.in);
+	System.out.print("Enter a Binary Number: ");
+	bin = sc.nextInt();
+	while (bin > 0) {
+	rem = bin % 2;
+	dec = dec + rem * i;
+	i = i * 2;
+	bin = bin / 10;
+  }
+   i = 0;
+  while (dec != 0) {
+	hex[i] = dec % 16;
+	dec = dec / 16;
+	i++;
+  }
+  
+  System.out.print("Hexadecimal value: ");
+  for (j = i - 1; j >= 0; j--)
+  {
+   if (hex[j] > 9) 
+	{
+		System.out.print((char)(hex[j] + 55)+"\n");
+	} 
+	else
+		{
+			System.out.print(hex[j]+"\n");
+		}
+  }
+}
+}
+
+*/
+
+/*
+
+import java.util.Scanner;
+class BinaryToOctal{
+public static void main(String[] args) 
+    {
+        int bnum, bnum1,rem, dnum=0, quot, i=1, j;
+        int onum[] = new int[100];
+        Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a Binary Number : ");
+        bnum=sc.nextInt();
+        bnum1=bnum;
+     
+       while(bnum > 0)
+        {
+            rem = bnum % 10;
+            dnum = dnum + rem*i;
+            i = i*2;
+            bnum = bnum/10;
+        }   
+		
+		i=1;
+        quot = dnum;
+		
+        while(quot > 0)
+        {
+            onum[i] = quot % 8;
+			i++;
+            quot = quot / 8;
+        }
+		
+        System.out.print("Octal Number " +bnum1+ " is :");
+        for(j=i-1; j>0; j--)
+        {
+            System.out.print(onum[j]);
+        }
+			System.out.print("\n");
+ 
+    }
+}
+*/
+
+/*
+
+import java.util.Scanner;
+class OctalToDecimal{
+ 
+public static void main(String[] args) 
+   {
+     Scanner in = new Scanner(System.in);
+     long onum, dnum = 0;
+     int i = 0;
+    System.out.print("Enter a octal number: ");
+    onum = in.nextLong();
+    while (onum != 0) 
+     {
+      dnum = (long)(dnum + (onum % 10) * Math.pow(8, i++));
+      onum = onum / 10;
+     }
+    System.out.print("Equivalent decimal number: " + dnum+"\n");
+   }
+}
+
+*/
+
+
